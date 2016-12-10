@@ -22,7 +22,7 @@ puts "There was a minimum (#{min[:minimum]}) at intersection of row #{min[:row]}
 prettyprint(x)
 puts "Enter your own array\nFormatting: space separates elements, comma ends row, all other symbols will be trimmed"
 input = gets.chomp.tr('.', '')
-rows = input.split(', ')
+rows = input.split(',')
 userarray = []
 rows.each do |row|
 	userarray.push(row.split(" "))
